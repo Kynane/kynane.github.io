@@ -5,6 +5,12 @@
 
 body{
     font-family: '8bitoperatorplusbold';
+    background: no-repeat url("https://giffiles.alphacoders.com/615/61562.gif");
+    background-size: cover;
+    margin: 0%;
+    line-height: normal;
+    color: white;
+    text-decoration: none;
 }
 
 header {
@@ -12,7 +18,7 @@ header {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 250px;
+    height: 185px;
   }
 
   img {
@@ -20,3 +26,40 @@ header {
     display: flex;
     margin: auto;
   }
+
+  .boss-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    background-color: #1C1C1C;
+    text-align: center;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+.boss-container:hover{
+    box-shadow: 18px 16px 12px 0px rgba(0,0,0,0.1);
+    transition: all .3s ease-in-out
+}
+
+
+#sans img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sans:hover{
+    background-color: red;
+}
+
+#sans a{
+    text-decoration: none;
+    color: white;
+}
